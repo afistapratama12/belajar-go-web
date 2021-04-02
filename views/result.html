@@ -1,0 +1,15 @@
+{{ template "layout" .}}
+
+{{ define "main" }}
+<div class="root">
+    <ul>
+        <li>{{ .name }}</li>
+        <li>{{ .pesan }}</li>
+        <li>{{ .check }}</li>
+    </ul>
+</div>
+<div class="container">
+    <button class="btn btn-primary"><a href="/form" style="text-decoration: none; color: white">Back Form</a></button>
+</div>
+
+{{ end }}
